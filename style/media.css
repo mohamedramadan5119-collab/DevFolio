@@ -1,0 +1,99 @@
+@media screen and (max-width:576px) {
+    .space-nav{
+    margin: 0 13%;
+}
+
+.header1{
+
+
+    background-attachment:scroll;
+
+    
+}
+.hedcontent h1{
+    font-size: 3rem;
+    line-height: 58px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.hedcontent p{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.shadow-section1{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 2rem 0.5rem;
+}
+
+.image-about{
+    padding: 2rem 0;
+}
+
+.section-3{
+    background-repeat: no-repeat;
+    background-size: cover;
+        background-attachment: scroll;
+
+}
+.section-3 .container .row .broplem-1{
+    padding: 10px 0;
+    margin: 0;
+}
+
+
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+
+
+    .space-nav{
+    margin: 0 13%;
+}
+}
+
+
+@media screen and (min-width:768px ) and (max-width:991px) {
+
+    
+    .space-nav{
+    margin: 0 13%;
+}
+.image-about{
+    width: 90%;
+}
+}
+@media screen and (min-width:992px) {
+        .space-nav{
+        margin: 0 8%;
+        }
+        .image-about{
+    width: 95%;
+}
+
+        .navbar>ul>li {
+    white-space: nowrap;
+    padding: 0 0 0 30px;
+}
+}
+@media screen and (min-width:1200px) {
+        .space-nav{
+        margin: 0 9%;
+        }
+        .image-about{
+    width: 70%;
+}
+
+}
+@media screen and (min-width:1400px) {
+        .space-nav{
+        margin: 0 15%;
+        }
+        .image-about{
+    width: 65%;
+}
+        
+}
